@@ -40,6 +40,9 @@ textarea {
     border: none;
     outline: none;
     border: 1px solid #4a00e0;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .convert-btn {
@@ -56,5 +59,27 @@ textarea {
     cursor: pointer;
 }
 
+.convert-btn:hover {
+    background-color: #8e2de2;
+    transition: 0.4s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
-@media only screen and (min-width: 0px) and (max-width: 576px) {}
+.fas {
+    margin-left: 10px;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+
+    .container {
+        width: 68%;
+        padding: 40px;
+        margin: auto 20px;
+    }
+
+    textarea {
+        width: 250px;
+    }
+
+}
